@@ -1,0 +1,34 @@
+Start
+   num order
+   num coffee = 2
+   num total = 0
+   num whippedCream = 0.89
+   num chocolateSauce = 0.59
+   num cinnamon = 0.25
+   num amaretto = 1.5
+   num irishWhiskey = 1.75
+   Output add-ins menu
+   Input order
+   if order > 0 AND order < 7 is true then
+      if order == 1 is true then
+         total = coffee + whippedCream
+      end if
+      if order == 2 is true then
+         total = coffee + cinnamon
+      end if
+      if order == 3 is true then
+         total = coffee + chocolateSauce
+      end if
+      if order == 4 is true then
+         total = coffee + amaretto
+      end if
+      if order == 5 is true then
+         total = coffee + irishWhiskey
+      end if
+      if order == 6 is true then
+         total = coffee
+      end if
+      Output total
+   else
+      Output “We do not carry other add-ins!” 
+Stop
